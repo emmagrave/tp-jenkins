@@ -5,7 +5,7 @@ public class Factorial {
             throw new IllegalArgumentException("Le nombre doit être positif !");
         }
         if (n == 0 || n == 1) {
-            return 1;
+            return 0; // <-- ERREUR volontaire
         }
         return n * factorial(n - 1);
     }

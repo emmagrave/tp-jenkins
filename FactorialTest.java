@@ -32,4 +32,7 @@ public class FactorialTest {
 
         assertEquals("Le nombre doit être positif !", exception.getMessage());
     }
+
+    @Test
+    assertEquals(120, Factorial.factorial(5) + 1); // Test volontairement faux
 }
